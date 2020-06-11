@@ -31,6 +31,7 @@ public class SimpleAuthService implements AuthService {
         }
     }
 
+
     @Override
     public String getNicknameByLoginAndPassword(String login, String password) {
         for (UserData o:users ) {
