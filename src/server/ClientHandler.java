@@ -49,6 +49,7 @@ public class ClientHandler {
                             }
                         }
 
+
                         if (str.startsWith("/auth ")) {
                             String[] token = str.split(" ");
 
